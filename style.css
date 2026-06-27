@@ -36,3 +36,31 @@
     grid-column-start: 1;
     grid-column-end: 3;
 }
+.box3{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 10px;
+    height: 600px;
+    place-content: center;
+}
+.item5{
+    background-color: rgb(105, 93, 93);
+}
+.item6{
+    background-color: rgb(105, 93, 93);
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item7{
+    background-color: rgb(105, 93, 93);
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item8{
+    background-color: rgb(105, 93, 93);
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
