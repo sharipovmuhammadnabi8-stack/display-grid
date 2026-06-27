@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+.box{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 10px;
+    height: 600px;
+    place-content: center;
+}
+.item1{
+    background-color: rgb(255, 1, 1);
+}
