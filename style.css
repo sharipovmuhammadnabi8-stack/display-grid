@@ -161,3 +161,21 @@
     grid-column-start: 1;
     grid-column-end: 3;
 }
+.box7{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 10px;
+    height: 600px;
+    place-content: center;
+}
+.item20{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item21{
+    background-color: aqua;
+}
