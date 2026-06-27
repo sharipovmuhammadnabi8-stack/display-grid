@@ -229,3 +229,29 @@
     grid-column-start: 2;
     grid-column-end: 4;
 }
+.box10{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 10px;
+    height: 600px;
+    place-content: center;
+}
+.item28{
+    background-color: cornflowerblue;
+     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+     grid-column-start: 1;
+     grid-column-end: 3;
+     grid-row-start: 1;
+     grid-row-end: 3;
+}
+.item29{
+    background-color: cornflowerblue;
+     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.item30{
+    background-color: cornflowerblue;
+     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+     grid-column-start: 3;
+     grid-column-end: 5;
+}
