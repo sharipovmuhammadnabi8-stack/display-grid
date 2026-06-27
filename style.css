@@ -274,3 +274,29 @@ grid-row-start: 1;
 grid-row-end: 3;
 grid-column-start: 3;
 }
+.box12{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 10px;
+    height: 600px;
+    place-content: center;
+}
+.item33{
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+.item34{
+    background-color: darkcyan;
+    border-radius: 10px;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.item35{
+    background-color: darkcyan;
+    border-radius: 10px;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
