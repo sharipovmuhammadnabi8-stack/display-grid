@@ -12,3 +12,27 @@
 .item1{
     background-color: rgb(255, 1, 1);
 }
+.box2{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 10px;
+    height: 600px;
+    place-content: center;
+}
+.item2{
+    background-color: chartreuse;
+}
+.item3{
+    background-color: rgb(111, 192, 30);
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+}
+.item4{
+    background-color: rgb(110, 183, 38);
+    grid-row-start: 4;
+    grid-row-end: ;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
