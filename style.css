@@ -204,3 +204,28 @@
     grid-row-start: 3;
     grid-row-end: 5;
 }
+.box9{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 10px;
+    height: 600px;
+    place-content: center;
+}
+.item25{
+    background-color: coral;
+    border-radius: 20px;
+}
+.item26{
+    background-color: coral;
+    border-radius: 20px;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.item27{
+    background-color: coral;
+    border-radius: 20px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
