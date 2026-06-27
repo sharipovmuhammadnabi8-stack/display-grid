@@ -255,3 +255,22 @@
      grid-column-start: 3;
      grid-column-end: 5;
 }
+.box11{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 10px;
+    height: 600px;
+    place-content: center;
+}
+.item31{
+background-color: aquamarine;
+border-radius: 10px;
+}
+.item32{
+background-color: aquamarine;
+border-radius: 10px;
+grid-row-start: 1;
+grid-row-end: 3;
+grid-column-start: 3;
+}
